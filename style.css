@@ -1,4 +1,96 @@
 body{
-    background-color: blue;
-    color:cyan;
+    background-color: rgb(48, 48, 135);
+    color:yellow;
+    margin: auto;
 }
+
+nav{
+    width: 150 vw;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    gap: 10px;
+    background-color: rgb(83, 83, 165);
+}
+
+.button{
+    display: flex;
+    gap: 5rem; 
+}
+
+a{
+    text-decoration: none;
+    border: 2px red;
+}
+
+button.primary{
+    background-color: red;
+    color:black;
+  
+}
+    
+
+.logo{
+    width: 150px;
+}
+
+.logo-sega .text {
+    background:transparent(0, 0, 0, 0.8);
+    z-index: 1;
+    position: absolute;
+    text-align: left;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 5;
+    top: 30%;
+    color: white;
+    width: 70%;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h1, h2{
+    text-align: center;
+    font-weight: bolder;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.card{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    gap: 5rem;
+    border-radius: 5px;
+
+}
+
+#card{
+    border: 2px orange solid;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+iframe{
+    display: flex;
+    margin: auto;
+}
+
+footer
