@@ -93,4 +93,6 @@ iframe{
     margin: auto;
 }
 
-footer
+footer{
+    text-align: center;
+}
